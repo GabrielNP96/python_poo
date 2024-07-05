@@ -17,6 +17,8 @@ class Pessoa:
         print(f'Me chamo {self._nome} tenho {self._nome} anos e trabalho como {self._profissao}')
 
     
-jozildo = Pessoa('Jozildo Freitas', '45', 'Pedreiro')
+jozildo = Pessoa('Jozildo Freitas', 45, 'Pedreiro')
 jozildo.saudacao
+jozildo.aniversario()
+jozildo.saudacao()
 
